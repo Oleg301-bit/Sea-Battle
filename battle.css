@@ -1,0 +1,73 @@
+* {
+  box-sizing: border-box;
+}
+
+.grid-parent {
+  display: grid;
+  grid-template-columns: repeat(10, 40px);
+  grid-template-rows: repeat(10, 40px);
+  border: 1px solid black;
+  width: 400px;
+}
+.A1,
+.B1 {
+  background-color: rgba(127, 0, 127, 1);
+  border: none;
+}
+
+.J1,
+.I1,
+.H1,
+.G1 {
+  background-color: rgba(0, 0, 255, 1);
+  border: none;
+}
+.D1,
+.D2,
+.D3 {
+  background-color: rgba(0, 255, 1, 1);
+  border: none;
+}
+.A3,
+.A4,
+.A5,
+.A6 {
+  background-color: blue;
+  border: none;
+}
+.F3,
+.G3,
+.H3 {
+  background-color: rgba(0, 255, 1, 1);
+  border: none;
+}
+.J3,
+.J4 {
+  background-color: purple;
+  border: none;
+}
+.F6,
+.F7 {
+  background-color: purple;
+  border: none;
+}
+.J6,
+.J7,
+.J8 {
+  background-color: rgba(0, 255, 1, 1);
+  border: none;
+}
+.A8,
+.B8 {
+  background-color: purple;
+  border: none;
+}
+.F10,
+.E10,
+.G10,
+.H10,
+.I10,
+.J10 {
+  background-color: rgba(255, 1, 0, 1);
+  border: none;
+}
