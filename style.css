@@ -19,60 +19,70 @@
 }
 
 .b1 {
+  grid-column: 1 / 2;
   background-color: black;
 }
 .A1,
 .B1 {
+  grid-column: 2 / 4;
+  grid-row: 2 / 3;
   background-color: rgba(127, 0, 127, 1);
-  border: none;
 }
 
 .J1,
 .I1,
 .H1,
 .G1 {
+  grid-column: 8 / 12;
+  grid-row: 2 / 3;
   background-color: rgba(0, 0, 255, 1);
-  border: none;
 }
 .D1,
 .D2,
 .D3 {
+  grid-column: 5 / 6;
+  grid-row: 2 / 5;
   background-color: rgba(0, 255, 1, 1);
-  border: none;
 }
 .A3,
 .A4,
 .A5,
 .A6 {
+  grid-column: 2 / 3;
+  grid-row: 4 / 8;
   background-color: blue;
-  border: none;
 }
 .F3,
 .G3,
 .H3 {
+  grid-column: 7 / 10;
+  grid-row: 4 / 5;
   background-color: rgba(0, 255, 1, 1);
-  border: none;
 }
 .J3,
 .J4 {
+  grid-column: 11 / 12;
+  grid-row: 4 / 6;
   background-color: purple;
-  border: none;
 }
 .F6,
 .F7 {
+  grid-column: 7 / 8;
+  grid-row: 7 / 9;
   background-color: purple;
-  border: none;
 }
 .J6,
 .J7,
 .J8 {
+  grid-column: 11 / 12;
+  grid-row: 7 / 10;
   background-color: rgba(0, 255, 1, 1);
-  border: none;
 }
 .A8,
 .B8 {
+  grid-column: 2 / 4;
+  grid-row: 9 / 10;
   background-color: purple;
-  border: none;
 }
 .F10,
 .E10,
@@ -80,6 +90,7 @@
 .H10,
 .I10,
 .J10 {
+  grid-column: 6 / 12;
+  grid-row: 11 / 12;
   background-color: rgba(255, 1, 0, 1);
-  border: none;
 }
